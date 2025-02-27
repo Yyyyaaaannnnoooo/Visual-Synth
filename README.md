@@ -1,5 +1,13 @@
 # Simple Visual Synth
 
+> This patch has been used for the MESH festival 2024 performance
+
+Simple Processing sketch that converts image into FFT information to filter white noise.
+
+On the processing side images are analyzed pixel by pixel applying an edge detection filter super imposed to a brightness threshold filter.
+
+The pixel information is than sent to Supercollider via `OSC` and used as FFT filter over white noise.
+
 ## Setup
 
 1. Get SuperCollider [here](https://supercollider.github.io/)
