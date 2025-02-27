@@ -12,4 +12,4 @@
 1. run the processing sketch `processing/processing_visual_spectrum_video/processing_visual_spectrum_video.pde`
 2. At the moment the processing sketch is set to recognize the `SandbergCapture` HDMI to usb-c virtual camera. You can change this in `line 70`, to the virtual or not camera that you need to use.
 3. If no error messages appear it might already output a BW video stream
-4. Run the supercollider patch `supercollider/visual-synth/visual-synth-fft-to-LIVE-DEF.scd`
+4. Run the supercollider patch `supercollider/visual-synth/visual-synth-fft-to-LIVE.scd`
